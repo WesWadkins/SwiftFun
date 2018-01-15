@@ -3,7 +3,7 @@
 //  Swift Fun
 //
 //  Created by Wes Wadkins on 1/14/18.
-//  Copyright © 2018 Wes Wadkins. All rights reserved.
+//  Copyright © 2018 Wes Wadkins. All rights reserved..
 //
 
 import UIKit
