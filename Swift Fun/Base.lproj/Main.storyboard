@@ -49,6 +49,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9zn-SP-Y29">
+                                <rect key="frame" x="183" y="168" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -57,13 +60,16 @@
                             <constraint firstItem="NjF-dp-VEi" firstAttribute="top" secondItem="Crn-QE-bVS" secondAttribute="bottom" constant="50" id="AKf-gE-L7R"/>
                             <constraint firstItem="ZGA-vE-E7e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FK2-lZ-MeU"/>
                             <constraint firstItem="Crn-QE-bVS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GYY-VP-MKT"/>
+                            <constraint firstItem="Crn-QE-bVS" firstAttribute="top" secondItem="9zn-SP-Y29" secondAttribute="bottom" constant="40" id="jcO-ft-JaT"/>
                             <constraint firstItem="ZGA-vE-E7e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kn5-FH-azI"/>
                             <constraint firstItem="J3g-hJ-H4q" firstAttribute="top" secondItem="ZGA-vE-E7e" secondAttribute="bottom" constant="10" id="uUl-bz-WRx"/>
                             <constraint firstItem="NjF-dp-VEi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xXT-ka-oaj"/>
+                            <constraint firstItem="9zn-SP-Y29" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yZM-c1-7EK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="additionSwitch" destination="9zn-SP-Y29" id="jV0-Kr-Ci9"/>
                         <outlet property="bottomTextField" destination="NjF-dp-VEi" id="Aqa-t7-MAf"/>
                         <outlet property="myLabel" destination="ZGA-vE-E7e" id="JAh-pO-Egt"/>
                         <outlet property="topTextField" destination="Crn-QE-bVS" id="3ul-1k-Nwm"/>
