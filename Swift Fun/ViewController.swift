@@ -13,17 +13,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+//    var buttonCount = 0
+    
     @IBOutlet weak var myLabel: UILabel!
-    var buttonCount = 0
+    
+  
+    @IBOutlet weak var topTextField: UITextField!
+    
+    @IBOutlet weak var bottomTextField: UITextField!
     
     @IBAction func buttonTapped(_ sender: Any) {
-        buttonCount = buttonCount + 1
+        
+        print(topTextField.text!)
+        print(bottomTextField.text!)
+        
+        
+        
+        /*       buttonCount += 1
+        
+        print(buttonCount)
         
         if buttonCount >= 10 {
             view.backgroundColor = UIColor.red
             
             myLabel.text = "You Hit the button 10 times!"
         }
+        */
         
     }
     
